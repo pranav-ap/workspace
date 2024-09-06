@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b35f2a4-eee2-46ed-86a6-f32594fcc01d" name="Changes" comment="some code">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/breast_cancer_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/breast_cancer_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/iris_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/iris_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/logger_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/mnist/mnist_dm_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/mnist/mnist_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/mnist/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/titanic_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/titanic_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/used_cars_eda.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_studies/used_cars_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/breast_cancer_dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car_sales/car-sales-extended-missing-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car_sales/car-sales-extended.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/car_sales/car-sales.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/heart-disease.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/checkpoints/epoch=49-step=7250.ckpt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/lightning_logs/version_2/events.out.tfevents.1725638342.213783cb131c.36.4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/lightning_logs/version_2/events.out.tfevents.1725639093.213783cb131c.36.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/lightning_logs/version_2/hparams.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/mnist_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mnist/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/used_car_prices/sample_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/used_car_prices/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/used_car_prices/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/Boston.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/BostonTraining.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/MovieLens.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/boston_2/submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/boston_2/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/boston_2/test_processed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/boston_2/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/boston_2/train_processed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/movielens/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/movielens/movies.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/movielens/ratings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/datasets/movielens/users.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/explore.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/poly_sklearn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraps/titanic-survival-prediction-86-59-accuracy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/numpy_space/home.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pandas_space/create_index_slice.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pandas_space/data_transformation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pandas_space/missing_values.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pandas_space/timeseries.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pandas_space/wrangling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/plot_space/hello.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/python_space/hello.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/python_space/test_hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pytorch_space/autograd.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pytorch_space/cheetsheet.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pytorch_space/home.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/pytorch_space/nets.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/training_space/old_scikit_home.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/training_space/scikit_car_sales.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spaces/training_space/scikit_heart.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lPzXPBTssG2QUmN0Wi2jaY9tgm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Doctests in hello_pytest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for hello_pytest.test_answer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in bin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in hello_pytest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in hello_pytest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in py.test.hello.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in py.test_hello.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_hello.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.iris_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;DSTables&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workshop\scraps" />
+      <recent name="D:\workshop\case_studies" />
+      <recent name="D:\workshop\data\car_sales" />
+      <recent name="D:\workshop\vision_case_studies\mnist" />
+      <recent name="D:\workshop\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="workshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Doctests in test_hello" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="workshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\workshop\spaces\python_space" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workshop\python_space\test_hello.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_hello.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="workshop" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spaces/python_space" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/spaces/python_space/test_hello.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.pytest in test_hello.py" />
+      <item itemvalue="Python tests.Doctests in test_hello" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest in test_hello.py" />
+        <item itemvalue="Python tests.Doctests in test_hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="some code" />
+    <option name="LAST_COMMIT_MESSAGE" value="some code" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/workshop$main.coverage" NAME="main Coverage Results" MODIFIED="1725096831872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/workshop$iris_train.coverage" NAME="iris_train Coverage Results" MODIFIED="1725309701595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_studies" />
+    <SUITE FILE_PATH="coverage/workshop$pytest_in_py_test_hello_py.coverage" NAME="pytest in test_hello.py Coverage Results" MODIFIED="1725102709421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_space" />
+    <SUITE FILE_PATH="coverage/workshop$Doctests_in_hello_pytest.coverage" NAME="Doctests in hello_pytest Coverage Results" MODIFIED="1725102319065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_space" />
+    <SUITE FILE_PATH="coverage/workshop$pytest_in_hello_pytest_py.coverage" NAME="pytest in hello_pytest.py Coverage Results" MODIFIED="1725102332278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_space" />
+    <SUITE FILE_PATH="coverage/workshop$train.coverage" NAME="train Coverage Results" MODIFIED="1725616202616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case_studies/mnist" />
+    <SUITE FILE_PATH="coverage/workshop$.coverage" NAME=" Coverage Results" MODIFIED="1725102299272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_space" />
+  </component>
+</project>
