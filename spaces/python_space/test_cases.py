@@ -9,7 +9,7 @@ def test_answer():
     assert func(3) == 4
 
 
-class TestClass:
+class TestClass2:
     def test_one(self):
         x = "this"
         assert "h" in x
@@ -45,10 +45,7 @@ def fruit_bowl():
 
 
 def test_fruit_salad(fruit_bowl):
-    # Act
     fruit_salad = FruitSalad(*fruit_bowl)
-
-    # Assert
     assert all(fruit.cubed for fruit in fruit_salad.fruit)
 
 
@@ -59,5 +56,3 @@ class TestClass:
 
     def test_weird_simple_case(self, n, expected):
         assert (n * 1) + 1 == expected
-
-

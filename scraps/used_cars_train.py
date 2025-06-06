@@ -1,11 +1,8 @@
-from logger_setup import logger
+from utils.logger_setup import logger
 
-import sys
 import numpy as np
 import pandas as pd
 
-import matplotlib.pyplot as plt
-import seaborn as sns
 from pprint import pprint
 
 
@@ -17,10 +14,7 @@ def extract_or_replace(pattern, value):
 
     return None
 
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
-from sklearn.impute import SimpleImputer
+
 #
 # def get_datasets():
 #     logger.debug("Getting Dataset!")
@@ -245,7 +239,7 @@ def main():
     logger.info("Predicting on Test Set")
     X_test_transformed = best_model.scaler.transform(X_test)
 
-    from common import plot_validation_curve, plot_learning_curve
+    from utils.common import plot_validation_curve, plot_learning_curve
     plot_validation_curve(X_train, y_train, best_model, param_name='n_estimators', param_range=[50, 100])
     plot_learning_curve(X_train, y_train, best_model)
 

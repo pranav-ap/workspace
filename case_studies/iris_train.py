@@ -1,4 +1,4 @@
-from logger_setup import logger
+from utils.logger_setup import logger
 
 import seaborn as sns
 from pprint import pprint
@@ -71,11 +71,11 @@ def eval_model(y_test, y_pred, y_pred_proba=None):
     from sklearn.metrics import classification_report
     print(classification_report(y_test, y_pred, zero_division=0))
 
-    from common import plot_confusion_matrix
+    from utils.common import plot_confusion_matrix
     plot_confusion_matrix(y_test, y_pred)
 
     if y_pred_proba is not None:
-        from common import plot_roc_curve, plot_precision_recall_curve
+        from utils.common import plot_roc_curve, plot_precision_recall_curve
         plot_roc_curve(y_test, y_pred_proba, is_binary=False)
         plot_precision_recall_curve(y_test, y_pred_proba, is_binary=False)
 
@@ -100,7 +100,7 @@ def main():
     y_pred = best_model.predict(X_test_transformed)
     eval_model(y_test, y_pred, y_pred_proba)
 
-    from common import plot_validation_curve, plot_learning_curve
+    from utils.common import plot_validation_curve, plot_learning_curve
     plot_validation_curve(X_train, y_train, best_model, param_name='n_estimators', param_range=[50, 100])
     plot_learning_curve(X_train, y_train, best_model)
 

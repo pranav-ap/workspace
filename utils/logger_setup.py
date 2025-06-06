@@ -11,9 +11,6 @@ def setup_logging():
         level="DEBUG"
     )
 
-    logger.add("../logs/training.log", format="{time} {level} {message}", level="DEBUG")
-
-
 # Ensure the logger is set up when this module is imported
 setup_logging()
 

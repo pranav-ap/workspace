@@ -12,6 +12,18 @@ plt.style.use('seaborn-v0_8-whitegrid')
 import seaborn as sns
 sns.set_theme(style="darkgrid")
 
+"""
+Imports
+"""
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torchvision
+import torchvision.transforms as T
+import torchvision.transforms.functional as TF
+torch.set_float32_matmul_precision('medium')
+
 
 """
 Visualizations
@@ -456,3 +468,53 @@ def plot_precision_recall_curve(y_test, y_pred_proba, is_binary=True):
     plt.title('Precision-Recall Curve', fontsize=18)
     plt.legend(loc="lower left")
     plt.show()
+
+
+"""
+Images
+"""
+
+def show_grid(images, labels=None, label_fontsize=15, figsize_factor=2, rows=None, cols=None):
+    # If only one image is passed, convert it to a list
+    if not isinstance(images, list):
+        images = [images]
+
+    # Calculate rows and columns based on provided values
+    if rows is None and cols is None:
+        raise ValueError("Either rows or cols must be specified")
+
+    if rows is None:
+        rows = (len(images) + cols - 1) // cols  # Calculate rows if cols is provided
+
+    if cols is None:
+        cols = (len(images) + rows - 1) // rows  # Calculate cols if rows is provided
+
+    # Create a matplotlib figure with subplots in a grid
+    fig, axs = plt.subplots(rows, cols, figsize=(cols * figsize_factor, rows * figsize_factor), squeeze=False)
+
+    for i, img in enumerate(images):
+        img = img.detach()  # Detach the tensor from the computation graph, if needed
+        img = TF.to_pil_image(img)  # Convert to PIL image
+
+        # Get row and column indices for the grid
+        row, col = divmod(i, cols)
+
+        # Display the image
+        axs[row, col].imshow(np.asarray(img))
+
+        # Set the title if labels are provided
+        if labels:
+            axs[row, col].set_title(labels[i], fontsize=label_fontsize)
+
+        # Remove axis labels and ticks
+        axs[row, col].set(xticklabels=[], yticklabels=[], xticks=[], yticks=[])
+
+    # Hide any empty subplots if there are fewer images than grid slots
+    for i in range(len(images), rows * cols):
+        fig.delaxes(axs.flatten()[i])
+
+    # Adjust layout and show the plot
+    plt.tight_layout()
+    plt.show()
+
+
